@@ -3,10 +3,12 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-int max = 0;
+
 
 Console.Write("Введите первое число: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
+
+int max = num1;
 
 Console.Write("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
