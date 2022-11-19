@@ -3,18 +3,19 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine("Введите пятизначное число: ");
+Console.Write("Введите пятизначное число: ");
 string number = Console.ReadLine();
+
 int num = number.Length;
 
 if (num == 5)
 {
     if (number[0] == number[4] && number[1] == number[3])
     {
-        Console.WriteLine($"{number} - да");
+        Console.WriteLine($"{number} - да.");
     }
     else
     {
-        Console.WriteLine($"{number} - нет");
+        Console.WriteLine($"{number} - нет.");
     }
 }
