@@ -22,25 +22,3 @@ else
     numY = k1 * numX + b1;
     Console.WriteLine($"Точка пересечения двух прямых: {numX},{numY}");
 }
-
-// Console.WriteLine($"Точка пересечения двух прямых: {numX},{numY}");
-
-// Console.Write("введите значение b1: ");
-// double b1=Convert.ToInt32(Console.ReadLine());
-// Console.Write("введите значение k1: ");
-// double k1=Convert.ToInt32(Console.ReadLine());
-// Console.Write("введите значение b2: ");
-// double b2=Convert.ToInt32(Console.ReadLine());
-// Console.Write("введите значение k2: ");
-// double k2=Convert.ToInt32(Console.ReadLine());
-
-// double xIntersection=0;
-// double yIntersection=0;
-// if (b1==b2 & k1==k2) Console.WriteLine("Прямые совпадают");
-// else if (k1==k2) Console.WriteLine("Прямые параллельны друг другу");
-// else 
-// {
-//     xIntersection =(b2-b1)/(k1-k2);
-//     yIntersection =k1*xIntersection+b1;
-//     Console.WriteLine("точка пересечения "+" ("+ xIntersection+" ;"+yIntersection+ ")");
-// } 
